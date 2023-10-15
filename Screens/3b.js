@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
 import React ,{ useState } from "react"
 import { useNavigation } from "@react-navigation/native"
 export default function Lab3b() {
-    const [image, setImage] = useState(require("../src/image/vs_red.png"))
+    const [image, setImage] = useState(require("../src/image/vs_blue.png"))
     const navigation = useNavigation()
     return (
         <View style={{ flex: 1, paddingVertical: 20, paddingHorizontal: 5, gap: 15 }}>
