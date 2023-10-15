@@ -11,7 +11,7 @@ export default function Lab3a( route) {
                 <Image
                     resizeMode='contain'
                     style={{ width: null, height: 300 }}
-                    source={data ? data: require("../src/image/vs_red.png")}
+                    source={data ? data: require("../src/image/vs_blue.png")}
                 />
             </View>
             <View>
